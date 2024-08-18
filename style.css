@@ -1,0 +1,52 @@
+*{
+	margin:auto;
+	font-family: "Verdana";
+	font-size: 20px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+nav, footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: #395c98;
+	text-align: center;
+	color: white;
+	height:140px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.title{
+    text-align: center;
+	font-size:40px;
+}
+
+main{
+    margin: 40px;
+}
+
+.centralized_container{
+	display: flex;
+	justify-content: space-between;
+	text-align: justify;
+	margin: 20px;
+}
+
+.image-card{
+	width: 40%;
+	height: 40%;
+    margin: 40px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.image-card:hover {
+	transform: scale(1.05);
+	transition: all ease 300ms;
+}
